@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.why-CA{
+    position:relative;
+    width: 400px;
+    height: 250px;
+    padding: 30px;
+    margin: 40px;
+  }
+  
+  .tittle-ca{
+    font-size: 50px;
+    font-weight:800;
+  }
+
+  .title-bold-CA{
+    
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .why-CA::after{
+    content: "";
+    width: 150px;
+    height: 9px;
+    position: absolute;
+    top: 40%;
+    border-radius: 30%;
+    background: #423560;
+  }
+  
+  .text{
+    position: absolute;
+    bottom: 15px;
+  }
+
+
+.educations{
+    display: flex;
+}
+.blog{
+    height: 200px;
+    width: 200px;
+    color: black;
+    border-style: solid;
+    border-color:rgb(124, 118, 118);
+    transition: all 0.8s;
+    padding: 10px;
+
+}
+.educations p{
+    margin-top: 50px;
+}
+.blog:hover{
+    transform: scale(1.1);
+    
+}
+.programming:hover{
+    background-color: #2382C8;
+    color: white;
+}
+.IT:hover{
+    background-color:#00B45A ;
+    color: white;
+}
+.Dizayn:hover{
+    background-color:#FFCD05;
+    color: white;
+}
+.marketing:hover{
+    background-color: #872891;
+    color: white;
+}
+.educations img{
+    width: 120px;
+    height: 80px;
+}
